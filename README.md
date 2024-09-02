@@ -4,7 +4,7 @@
 This is the official PyTorch implementation of the paper **[HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning]()**.
 
 - Our WebUI for automatically filtering and supplementing geographical element labels for GUT, CUT, and CDT:
-![](images/11.HI4HC_WebUI.jpg)
+![](images/11.HI4HC_WebUI.png)
 
 
 Note: The code and dataset models will be released upon acceptance of the paper.
