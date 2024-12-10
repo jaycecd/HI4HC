@@ -122,4 +122,4 @@ Please cite the following paper if you find it useful for your research:
 
 
 ### 7.License <a name="license"></a>
-This repo is distributed under [MIT License](). The code can be used for academic purposes only.
+This repo is distributed under [GPL License](https://github.com/jaycecd/HI4HC/blob/main/LICENSE). The code can be used for academic purposes only.
