@@ -10,7 +10,12 @@ This is the official PyTorch implementation of the paper **[HI4HC and AAAAD: Exp
 ### :star: Visualization
 - Our HI4HC-WebUI for automatically filtering and supplementing geographical element labels for GUT, CUT, and CDT:
 ![](images/11.HI4HC_WebUI.png)
-- [Demonstration Video of HI4HC-WebUI](https://github.com/user-attachments/assets/f2f6e5a1-b062-4564-8434-81ce02fd2d0f)
+- [Demonstration Video of HI4HC-WebUI](https://github.com/user-attachments/assets/ae65b923-931a-45b2-9c25-edb220c7281c)
+
+  Please wear headphones for a better understanding of HI4HC_WebUI
+
+
+
 
 
 Note: The complete code will be released after the paper is accepted.
