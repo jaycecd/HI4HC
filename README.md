@@ -3,11 +3,17 @@
     
 This is the official PyTorch implementation of the paper **[HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning]()**.
 
-- Our WebUI for automatically filtering and supplementing geographical element labels for GUT, CUT, and CDT:
+### :fire: Updates
+* **[2024.12.10]** We have released AAAAD, feel free to use it!
+
+
+### :star: Visualization
+- Our HI4HC-WebUI for automatically filtering and supplementing geographical element labels for GUT, CUT, and CDT:
 ![](images/11.HI4HC_WebUI.png)
+- [Demonstration Video of HI4HC-WebUI](https://github.com/user-attachments/assets/f2f6e5a1-b062-4564-8434-81ce02fd2d0f)
 
 
-Note: The code and dataset models will be released upon acceptance of the paper.
+Note: The complete code will be released after the paper is accepted.
 
 ### Table of content
 1. [Overall Strategy for Hierarchical Captioning for Remote Sensing Scenes](#Strategy)
@@ -30,6 +36,44 @@ Note: The code and dataset models will be released upon acceptance of the paper.
 
 ### 3.AAAAD: A Hierarchical Caption Dataset for Remote Sensing Scene Based on Hybrid Intelligence <a name="AAAAD"></a>
 
+#### How to use AAAAD?
+
+The `AAAAD` dataset consists of two parts: a remote sensing imagery dataset and a hierarchical description dataset. The remote sensing imagery dataset is derived from the `AID` dataset, while the hierarchical caption dataset includes geographical element captions, spatial relation captions, and scene-level captions.
+
+1. Download the remote sensing imagery dataset from `AAAAD`:
+   The remote sensing imagery in `AAAAD` is sourced from the `AID` dataset. You can either download the [AID dataset](https://captain-whu.github.io/AID/) and preprocess (center-cropped) it to 512x512 resolution or directly download our preprocessed version:
+
+   - `Dataset_AAAAD_Imagery`: [Hugging Face](https://huggingface.co/datasets/jaycecd/AAAAD/tree/main) or [Baidu NetDisk](https://pan.baidu.com/s/15YtYMTwy0AacojCzraXBxQ) (code: cjql)
+
+2. Download the hierarchical description dataset from `AAAAD`:
+   - The `Dataset_AAAAD_Hierarchical_Caption.json` file in this repository contains the hierarchical caption dataset of `AAAAD`, structured as follows:
+
+```json
+{
+    "dataset": "AAAAD",
+    "category": 
+    {
+        "church": 
+        [
+            {
+                "image_id": 1,
+                "file_name": "church_1.png",
+                "split": "test",
+                "hierarchical_caption": 
+                {
+                    "object": "building, city, cityscape, skyscraper, scenery, architecture, library, tower, street, real world location, town, outdoors, road, house, from above, car, tree, water, fountain",
+                    "relation": "this aerial photo depicts a city area with multiple buildings and structures. the most striking feature is a large elliptical building with a blue-green roof, possibly a stadium or auditorium. surrounding this central structure are various other buildings of different shapes and sizes, including a semi-circular design adjacent to the elliptical structure.",
+                    "scene": "commercial"
+                }
+            }
+        ]
+    }
+}
+
+```
+
+
+
 - Qualitative comparison between existing RSI caption datasets and AAAAD (ours). 
 ![](images/4.Qualitative_comparison_between_existing_RSI_caption_datasets_and_AAAAD.jpg)
 
@@ -40,10 +84,10 @@ Note: The code and dataset models will be released upon acceptance of the paper.
 ![](images/6.Comparison_of_dataset_overall_scale.jpg)
 
 - Comparison of AAAAD and existing remote sensing caption datasets across different dimensions (element, attributes, spatial relations).
-![](images/7.Word_frequency_comparison_and_keyword_analysis.jpg)
+![](images/7.Word_frequency_and_keyword_analysis.jpg)
 
 - Statistical analysis of AAAAD and existing remote sensing caption datasets.
-![](images/8.Statistical_analysis_of_AAAAD_and_existing_remote_sensing_caption_datasets.jpg)
+![](images/8.Statistical_analysis_of_AAAAD.jpg)
 
 - Comparison of semantic similarity between AAAAD and existing remote sensing caption datasets.
 ![](images/9.Semantic_diversity_comparison.jpg)
@@ -52,9 +96,6 @@ Note: The code and dataset models will be released upon acceptance of the paper.
 ![](images/10.Remote_sensing_scene_generation_results_and_analysis.jpg)
 
   
-You can download AAAAD for a quick look.
-  - AAAAD: [Google Drive]() or [Baidu NetDisk]()
-
 
 ### 4.Paper <a name="paper"></a>
 **[HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning]()**
