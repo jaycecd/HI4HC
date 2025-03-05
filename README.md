@@ -66,7 +66,7 @@ The `AAAAD` dataset consists of two parts: a remote sensing imagery dataset and 
                 "split": "test",
                 "hierarchical_caption": 
                 {
-                    "object": "building, city, cityscape, skyscraper, scenery, architecture, library, tower, street, real world location, town, outdoors, road, house, from above, car, tree, water, fountain",
+                    "element": "building, city, cityscape, skyscraper, scenery, architecture, library, tower, street, real world location, town, outdoors, road, house, from above, car, tree, water, fountain",
                     "relation": "this aerial photo depicts a city area with multiple buildings and structures. the most striking feature is a large elliptical building with a blue-green roof, possibly a stadium or auditorium. surrounding this central structure are various other buildings of different shapes and sizes, including a semi-circular design adjacent to the elliptical structure.",
                     "scene": "commercial"
                 }
