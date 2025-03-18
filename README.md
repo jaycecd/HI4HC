@@ -1,8 +1,7 @@
 <h1 align="center">HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning</h1>
 
     
-This is the official PyTorch implementation of the paper **[HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning]()**.
-
+This is an ongoing project. We will continuously enhance the model's performance and update the dataset. Click the `Star` in the top right corner to follow us and stay updated with the latest research outcomes!
 ### :fire: Updates
 * **[2024.12.10]** We have released AAAAD, feel free to use it! see [How to use AAAAD?](#how-to-use)
 
