@@ -103,14 +103,20 @@ The `AAAAD` dataset consists of two parts: a remote sensing imagery dataset and 
   
 
 ### 4.Paper <a name="paper"></a>
-**[HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning]()**
+**[HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning](https://www.sciencedirect.com/science/article/pii/S1569843225001384)**
 
 Please cite the following paper if you find it useful for your research:
 ```
 @article{ren2024hi4hc,
-  title={HI4HC and AAAAD: Exploring a Hierarchical Method and Dataset Using Hybrid Intelligence for Remote Sensing Scene Captioning},
-  author={Jiaxin Ren, Wanzeng Liu, Jun Chen, Shunxi Yin, and Yuan Tao},
-  year={2024}
+title = {HI4HC and AAAAD: Exploring a hierarchical method and dataset using hybrid intelligence for remote sensing scene captioning},
+journal = {International Journal of Applied Earth Observation and Geoinformation},
+author={Jiaxin Ren, Wanzeng Liu, Jun Chen, and Shunxi Yin},
+volume = {139},
+pages = {104491},
+year = {2025},
+issn = {1569-8432},
+doi = {https://doi.org/10.1016/j.jag.2025.104491},
+url = {https://www.sciencedirect.com/science/article/pii/S1569843225001384}
 }
 ```
 
